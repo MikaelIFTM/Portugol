@@ -1,0 +1,16 @@
+programa
+{
+	
+real numeros[10]
+	inteiro i
+	funcao inicio()
+	{
+		para(i=0;i<10;i++){ /*Para o index comecando no 0, sendo até 10, adicione 1*/
+			escreva("Digite o ", i+1, "º numero")
+			leia(numeros[i])
+		}
+		para(i=9;i>0;i--){
+			escreva(numeros[i])	
+		}
+	}
+}
